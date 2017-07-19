@@ -1,7 +1,8 @@
 package com.mangroo.springboot;
 
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMapping;
+import com.mangroo.springboot.model.Customer;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloController {
@@ -11,4 +12,10 @@ public class HelloController {
         return "Greetings from Spring Boot!";
     }
 
+    @RequestMapping(path="/customers", method= RequestMethod.POST)
+    @ResponseStatus(HttpStatus.CREATED)
+    public Customer postCustomer(@RequestBody Customer customer){
+        System.out.println("Customer ID :" + customer.toString());
+        return customer;
+    }
 }

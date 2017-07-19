@@ -1,4 +1,4 @@
-package com.mangroo.springboot;
+package com.mangroo.springboot.unittests;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;

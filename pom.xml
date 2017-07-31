@@ -4,7 +4,7 @@
 
     <groupId>com.mangroo</groupId>
     <artifactId>springboot</artifactId>
-    <version>0.7-SNAPSHOT</version>
+    <version>0.7</version>
 
 
     <parent>
@@ -39,6 +39,7 @@
         <url>https://github.com/mangroa/springboot</url>
         <connection>scm:git:git://github.com/mangroa/springboot.git</connection>
         <developerConnection>scm:git:git@github.com:mangroa/springboot.git</developerConnection>
+    <tag>springboot-0.7</tag>
   </scm>
 
     <build>

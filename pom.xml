@@ -4,7 +4,7 @@
 
     <groupId>com.mangroo</groupId>
     <artifactId>springboot</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.4</version>
 
 
     <parent>
@@ -59,7 +59,7 @@
         <repository>
             <id>internal.repo</id>
             <name>repo</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://192.168.2.135:8081/nexus/content/repositories/releases/</url>
         </repository>
     </distributionManagement>
 </project>

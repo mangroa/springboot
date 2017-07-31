@@ -39,4 +39,5 @@ public class HelloControllerIT {
                 String.class);
         assertThat(response.getBody(), equalTo("Greetings from Spring Boot!"));
     }
+
 }

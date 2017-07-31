@@ -55,7 +55,7 @@ public class HelloControllerTest {
         String jsonStringResponse = resultActions.andReturn().getResponse().getContentAsString();
         Customer objectInstanceResponse = jsonToCustomer(jsonStringResponse);
 
-        assertThat(objectInstanceResponse.getCustomerId()).isEqualTo(2);
+        assertThat(objectInstanceResponse.getCustomerId()).isEqualTo(1);
     }
 
     private static Customer jsonToCustomer(String json) {

@@ -36,12 +36,10 @@
     </properties>
 
     <scm>
-        <!--<url>scm:git:git@github.com/mangroa/springboot</url>-->
-        <!--<connection>scm:git:git@github.com/mangroa/springboot.git</connection>-->
-        <!--<developerConnection>scm:git:git@github.com:mangroa/springboot.git</developerConnection>-->
+        <url>scm:git:git@github.com/mangroa/springboot</url>
+        <connection>scm:git:git@github.com/mangroa/springboot.git</connection>
+        <developerConnection>scm:git:git@github.com:mangroa/springboot.git</developerConnection>
 
-        <url>https://github.com/mangroa/springboot</url>
-        <connection>scm:git:https://github.com/mangroa/springboot.git</connection>
 
     <tag>springboot-0.7</tag>
   </scm>

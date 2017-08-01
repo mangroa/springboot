@@ -44,8 +44,8 @@
         <!--<developerConnection>scm:git:github.com:mangroa/springboot.git</developerConnection>-->
 
 
-        <connection>scm:git:https://github.com/mangXroa/springboot.git</connection>
-        <developerConnection>scm:git:https://github.com/mangroa/springboot.git</developerConnection>
+        <connection>scm:git:https://github.com/mangroa/springboot.git</connection>
+        <developerConnection>scm:git:https://github.com/mXangroa/springboot.git</developerConnection>
         <url>https://github.com/mangroa/springboot/tree/${project.scm.tag}</url>
 
     <tag>springboot-0.7</tag>
